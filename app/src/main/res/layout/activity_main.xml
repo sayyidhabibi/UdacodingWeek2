@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="assigment week #2"
+        android:textAllCaps="true"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_Hitungumur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Menghitung Umur"
+        android:textSize="15sp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btn_Beratbadan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aplikasi_menghitung_berat_badan"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aplikasi_login_sederhana"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btn_Wisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aplikasi_Wisata_list_view"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btn_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aplikasi_Makanan_recylerview"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

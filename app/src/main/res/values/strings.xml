@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UdacodingWeek2</string>
+    <string name="aplikasi_menghitung_berat_badan">Aplikasi Menghitung Berat Badan</string>
+    <string name="aplikasi_login_sederhana">Aplikasi Login Sederhana</string>
+    <string name="aplikasi_Wisata_list_view">Aplikasi Wisata lIST VIEW</string>
+    <string name="aplikasi_Makanan_recylerview">Aplikasi Makanan RecylerView</string>
+    <string-array name="name">
+        <item>Laki Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
