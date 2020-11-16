@@ -9,7 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.udacodingweek2.DetailMakananActivity
 import com.example.udacodingweek2.R
 import com.example.udacodingweek2.model.Data
 
@@ -18,7 +17,7 @@ class RecyclerViewAdapter(
     private var data: List<Data>,
     private val itemclick: OnClickListener
 ) : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
-    inner class ViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
+    class ViewHolder(private var view: View) : RecyclerView.ViewHolder(view) {
         var photo = view.findViewById<ImageView>(R.id.profile_image)
         var nama = view.findViewById<TextView>(R.id.txtNama)
         var desk = view.findViewById<TextView>(R.id.txtDeskripsi)
@@ -30,7 +29,9 @@ class RecyclerViewAdapter(
         return holder
     }
 
-    override fun getItemCount(): Int = data.size ?: 0
+    override fun getItemCount(): Int {
+        return data.size ?:0
+    }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         //mengambil data
